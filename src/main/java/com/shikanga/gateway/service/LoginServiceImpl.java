@@ -83,4 +83,5 @@ public class LoginServiceImpl implements LoginService {
         List<String> roleList = jwtTokenProvider.getRoleList(token);
         return jwtTokenProvider.createToken(username, roleList);
     }
+
 }

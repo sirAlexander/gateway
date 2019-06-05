@@ -10,6 +10,16 @@ import java.util.Set;
 @Document
 public class User {
 
+    public User() {
+    }
+
+    public User(String email, String password, String name, String lastName) {
+        this.email = email;
+        this.password = password;
+        this.name = name;
+        this.lastName = lastName;
+    }
+
     @Id
     private String id;
 

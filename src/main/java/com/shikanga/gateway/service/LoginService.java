@@ -13,4 +13,5 @@ public interface LoginService {
     boolean isValidToken(String token);
 
     String createNewToken(String token);
+
 }
