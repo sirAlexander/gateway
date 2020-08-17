@@ -23,7 +23,7 @@ public class ApplicationStartupRunner implements ApplicationRunner {
 
     private void seedData() {
         userRepository.deleteAll();
-        User user1 = new User("alexander@test.f$%.off.com", "testpassword01", "alejandro", "Shuboan");
+        User user1 = new User("alexander@test.p$%.off.com", "testpassword01", "alejandro", "Shuboan");
         Set<Role> roles = new HashSet<>();
         roles.add(new Role(12345, "Admin"));
         user1.setRole(roles);
